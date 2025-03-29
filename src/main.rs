@@ -2,6 +2,7 @@ use rand::prelude::IndexedRandom;
 use std::env;
 
 const VOWELS: [char; 5] = ['a', 'e', 'i', 'o', 'u'];
+// Please don't run `cargo fmt` or this neat block gets ruined.
 const CONSONANTS: [char; 20] = [
     'b', 'c', 'd', 'f', 'g',
     'h', 'j', 'k', 'l', 'm',
